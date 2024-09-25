@@ -2,15 +2,15 @@
 
 :root {
 
-    --cor-de-fundo: #95bff7;
-    --cor-principal: #3835c2;
-    --cor-secundaria: #41a8ec;
+    --cor-de-fundo: #e982db;
+    --cor-principal: #ffffff;
+    --cor-secundaria: #da56f5;
     --fonte: "Sofadi One", system-ui;
-    --cor-barra: white;
+    --cor-barra: rgb(241, 18, 18);
 }
 
 body {
-    background-image: url(https://wallpapers.com/images/hd/stunning-league-of-legends-desktop-jk70emfq9rgxk1qm.jpg);
+    background-image: url(https://wallpapers.com/images/hd/league-of-legends-background-iynyl9ikzkga6jjt.jpg);
     color: var(--cor-principal);
     font-family: var(--fonte);
     height: 100vh;
