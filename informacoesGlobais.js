@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span> ${pessoasMundo} bilhões </span> de pessoas e que aproximadamente <span> ${pessoasConectadas} bilhões </span> estão conectadas em alguma rede social e passam em média <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
+    paragrafo.innerHTML = `Jhin lidera a lista com uma taxa de vitória notável de 29.4%, seguido por Kai'Sa e Ezreal, que apresentam 22.7% e 18.5%, respectivamente. Os outros campeões, como Jinx e Lee Sin, também apresentam taxas competitivas, todas acima de 15%. Esses dados refletem o desempenho atual dos campeões no jogo, indicando quais personagens estão se destacando nas partidas.`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
